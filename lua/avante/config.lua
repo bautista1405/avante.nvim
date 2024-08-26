@@ -10,7 +10,7 @@ M.defaults = {
   ---Currently, default supported providers include "claude", "openai", "azure", "gemini"
   ---For custom provider, see README.md
   ---@alias Provider "openai" | "claude" | "azure" | "copilot" | "gemini" | string
-  provider = "claude",
+  provider = "openai",
   ---@type AvanteSupportedProvider
   openai = {
     endpoint = "https://api.openai.com/v1",
